@@ -646,6 +646,7 @@ header .icon-cart:hover{
 
     .cart{
         left: 100%;
+        top: 1%;
     }
 
     .active .cart{
@@ -672,7 +673,7 @@ header .icon-cart:hover{
 
     .cart{
         left: 100%;
-        top: 1%;
+        top: 0.6%;
     
     }
 
