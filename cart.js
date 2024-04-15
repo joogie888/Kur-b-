@@ -105,7 +105,11 @@ closecart = document.querySelector(".close");
 productList = document.querySelector(".productList");
 quantity = document.querySelector(".quantity");
 total = document.querySelector(".total")
+button = document.querySelector('button')
 
+button.addEventListener('click', () => {
+    button.classList.add('active');
+})
 
 let checkOutList = [];
 
@@ -126,7 +130,7 @@ function onInIt() {
         <img src="shirts/${item.image}" />
         <div class="name">${item.name}</div>
         <div class="price"><small>$</small>${item.price}</div>
-        <button onclick="addToCart(${key})">Add to Cart</button>
+        <button onclick="addToCart(${key})">Add to Cart<span>Added</span></button>
         `;
 
         products.appendChild(div);
