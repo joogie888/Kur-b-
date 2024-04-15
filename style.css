@@ -207,6 +207,10 @@ img {
     outline: none;
 }
 
+.products .item button:active{
+    transform: scale(.9);
+}
+
 .productList{
     padding: 15px;
     height: 100%;
@@ -674,7 +678,6 @@ header .icon-cart:hover{
     .cart{
         left: 100%;
         top: 0.6%;
-    
     }
 
     .active .cart{

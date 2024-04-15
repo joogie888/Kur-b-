@@ -130,7 +130,7 @@ function onInIt() {
         <img src="shirts/${item.image}" />
         <div class="name">${item.name}</div>
         <div class="price"><small>$</small>${item.price}</div>
-        <button onclick="addToCart(${key})">Add to Cart<span>Added</span></button>
+        <button onclick="addToCart(${key})">Add to Cart</button>
         `;
 
         products.appendChild(div);
